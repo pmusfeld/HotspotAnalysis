@@ -1,0 +1,25 @@
+Package: HotspotAnalysis
+Type: Package
+Title: Find Hotspots (areas of high denisty) in 2-dimensional data
+Version: 0.1.0
+Author: Philipp Musfeld
+Maintainer: Philipp Musfeld <p.musfeld@gmail.com>
+Description: This package contains a function to find areas of high density, 
+    so called "Hotspots" in 2-dimensional data structures. It needs three columns as it's input: 
+    An identifier for each data-point, the x-coordinates and the y-coordinates. 
+    Thresholdes of how dense an area should be to be selected as a "Hotspot" 
+    can be edited via the default parameters.
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
+Imports:
+    cluster (>= 2.1.0),
+    dplyr (>= 0.8.5),
+    ggplot2 (>= 3.3.0),
+    magrittr (>= 1.5),
+    purrr (>= 0.3.3),
+    spatstat (>= 1.63.3),
+    stats (>= 3.6.3),
+    tidyr (>= 1.0.2)
+Depends: R (>= 3.6.0)
