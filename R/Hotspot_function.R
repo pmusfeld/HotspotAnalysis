@@ -1,21 +1,5 @@
+
 hotspot_analysis <- function(point_id, column_x_coord, column_y_coord, prop_nneighbours = 0.05, criterion_NNI = 0.8, number_cluster = NULL, prefer_more_cluster = TRUE){
-
-  #function to check if all required packages are installed. Install if not available
-  ##install_load_all <- function(x) {
-  ##.install_load_all <- function(x) {
-  ##if(!require(x, character.only = TRUE)) {
-  ##install.packages(x)
-  ##library(x, character.only = TRUE)
-  ##}
-  ##}
-
-  ##invisible(sapply(required_packages, .install_load_all))
-  ##}
-
-
-  #List required packages and load
-  #required_packages <- c("dplyr", "tidyr", "ggplot2", "spatstat", "cluster", "purrr")
-  #install_load_all(required_packages)
 
 
   #create function to calculate the distance to a specified number of nearest neighbours
